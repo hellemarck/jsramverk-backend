@@ -12,7 +12,7 @@ const saltRounds = 10;
 
 // let config = require('../config/config.json');
 
-const jwtSecret = process.env.JWT_SECRET;
+const jwtSecret = process.env.JWT_SECRET || config.secret;
 
 // Get route for login
 router.get("/", function(req, res, next) {

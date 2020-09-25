@@ -59,10 +59,19 @@ app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x
 // Put this last
 app.use((req, res, next) => {
     var err = new Error("Not Found");
+
     err.status = 404;
     next(err);
 });
 
 
 // Start up server
-app.listen(port, () => console.log(`Example API listening on port ${port}!`));
+// if (process.env.NODE_ENV == 'test') {
+//     const server = app.listen(1338);
+//     return server;
+// } else {
+const server = app.listen(port, () => console.log(`Example API listening on port ${port}!`));
+//     return server;
+// }
+
+module.exports = server;

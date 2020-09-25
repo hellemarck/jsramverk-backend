@@ -10,7 +10,7 @@ const jwt = require('jsonwebtoken');
 router.use(express.json());
 const saltRounds = 10;
 
-let config = require('../config/config.json');
+// let config = require('../config/config.json');
 
 const jwtSecret = process.env.JWT_SECRET || config.secret;
 

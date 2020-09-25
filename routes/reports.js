@@ -5,7 +5,7 @@ const sqlite3 = require('sqlite3').verbose();
 const db = require("../db/database.js");
 const bodyParser = require("body-parser");
 
-let config = require('../config/config.json');
+// let config = require('../config/config.json');
 const jwt = require('jsonwebtoken');
 
 const jwtSecret = process.env.JWT_SECRET || config.secret;

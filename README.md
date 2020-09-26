@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hellemarck/jsramverk-backend.svg?branch=master)](https://travis-ci.org/hellemarck/jsramverk-backend)
+
 This project is built with node.js framework Express and database SQLite. Repo `jsramverk` handles front-end (React).
 
 ## Clone repo

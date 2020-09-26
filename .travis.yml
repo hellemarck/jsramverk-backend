@@ -11,8 +11,8 @@ sudo: false
 git:
     submodules: false
 
-env:
-    - JWT_SECRET="randomSecretJustToRunSomeTests"
+# env:
+    # - JWT_SECRET="randomSecretJustToRunSomeTests"
 
 before_script:
     - npm install

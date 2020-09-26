@@ -1,12 +1,14 @@
-This project is built with node.js framework Express and database SQLite. Repo `jsramverk` handles front-end.
+This project is built with node.js framework Express and database SQLite. Repo `jsramverk` handles front-end (React).
+
+## Clone repo
+
+`git clone https://github.com/hellemarck/jsramverk-backend.git`
 
 ## Installations
 
-`npm init`
-
 `npm install`
 
-'npm install' for this repo will come with the following installations:
+This repo will come with the following packages:
 
 `express`
 
